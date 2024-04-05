@@ -1,0 +1,40 @@
+:root {
+  --main-color: #10cab7;
+  --secondary-color: #2c4755;
+  --section-padding: 60px;
+  --section-background: #f6f6f6;
+  --main-duration: 0.5s;
+}
+
+.landing {
+    background-size: cover;
+    height: calc(100vh - 64px);
+    position: relative;
+  }
+  .landing_img{
+    background-image: url(../Images/home.jpg);
+    background-size: cover;
+    height: calc(100vh - 64px);
+    position: relative;
+    filter: grayscale(100%);
+  }
+  .landing .intro-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    max-width: 100%;
+  }
+  .landing .intro-text h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 50px;
+    color: var(--main-color);
+  }
+  .landing .intro-text p {
+    font-size: 19px;
+    line-height: 1.8;
+    font-weight: bold;
+  }
